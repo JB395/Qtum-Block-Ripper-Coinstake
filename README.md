@@ -1,5 +1,5 @@
 # Qtum-Block-Ripper-Coinstake
-A script to print the coinstake intput and output values
+A script to print the coinstake input and output values
 
 **Use -txindex on startup to enable blockchain transaction queries.**
 May have to reload whole blockchain first.
