@@ -3,7 +3,10 @@ A script to print the coinstake intput and output values
 
 **Use -txindex on startup to enable blockchain transaction queries.**
 May have to reload whole blockchain first.
-Otherwise may get: ERROR, no response from qtumd
+Otherwise may get: ```ERROR, no response from qtumd```
+
+Set the starting block, number of blocks, and the flag ```isLinux``` to 
+select Linux or Windows machines.
 
 A program to read the coinstake transaction for a block to determine the input
 and output for the staking address. Prints the first input and the first two outputs.
